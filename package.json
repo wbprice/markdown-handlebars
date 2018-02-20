@@ -4,7 +4,7 @@
   "description": "Prototype for preprocessing Markdown files with template concatenation and interpolation.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,13 @@
   },
   "homepage": "https://github.com/wbprice/markdown-handlebars#readme",
   "dependencies": {
-    "marked": "^0.3.15"
+    "chai": "^4.1.2",
+    "handlebars": "^4.0.11",
+    "marked": "^0.3.15",
+    "mocha": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.0",
+    "eslint-config-cloudreach": "^1.0.0"
   }
 }
