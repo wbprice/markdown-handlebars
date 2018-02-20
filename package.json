@@ -1,0 +1,23 @@
+{
+  "name": "markdown-handlebars",
+  "version": "1.0.0",
+  "description": "Prototype for preprocessing Markdown files with template concatenation and interpolation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbprice/markdown-handlebars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbprice/markdown-handlebars/issues"
+  },
+  "homepage": "https://github.com/wbprice/markdown-handlebars#readme",
+  "dependencies": {
+    "marked": "^0.3.15"
+  }
+}
